@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - College Club</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Join Our College Club</h1>
+        <p>Become a Part of Our Community!</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="activities.html">Activities</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Student Registration Form</h2>
+
+        <p>Fill out the form to express your interest in joining our club.</p>
+
+        <form action="#" method="get">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="branch">Select Your Branch:</label>
+
+            <select id="branch" name="branch" required>
+                <option value="">-- Select Branch --</option>
+                <option value="AI">Artificial Intelligence</option>
+                <option value="CSE">Computer Science</option>
+                <option value="ECE">Electronics</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br><br>
+
+            <p>Which activities interest you?</p>
+
+            <input type="checkbox" id="coding" name="interest" value="Coding">
+            <label for="coding">Coding</label>
+
+            <input type="checkbox" id="workshops" name="interest" value="Workshops">
+            <label for="workshops">Workshops</label>
+
+            <input type="checkbox" id="projects" name="interest" value="Projects">
+            <label for="projects">Projects</label>
+
+            <br><br>
+
+            <label for="reason">Why do you want to join our club?</label>
+            <br>
+
+            <textarea id="reason" name="reason" rows="4" cols="35"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Invertis College Club</p>
+    </footer>
+
+</body>
+
+</html>
